@@ -1,0 +1,1 @@
+cmd_/root/NetFPGA-SUME/projects/reference_switch/sw/host/driver/sume.ko := cp /root/NetFPGA-SUME/projects/reference_switch/sw/host/driver/sume.ko.unsigned /root/NetFPGA-SUME/projects/reference_switch/sw/host/driver/sume.ko
