@@ -88,7 +88,9 @@ set_property strategy Performance_Explore [get_runs impl]
 set_param synth.filterSetMaxDelayWithDataPathOnly true
 set_property SEVERITY {Warning} [get_drc_checks UCIO-1]
 launch_runs synth
+wait_on_run synth
 launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
 
 ####################
 # Set up Simulations
